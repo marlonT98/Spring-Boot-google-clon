@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="main">
+
+    <img id="logo" src="img/logo.png" alt="">
+    <input id="searchInput" type="text">
+    <button onclick="search()"  >Search in Google</button>
+    <button>I'm Feeling lucky</button>
+
+</div>
+
+<script>
+
+
+
+
+    function search( ){
+
+        let textSearch = document.getElementById("searchInput").value;
+        document.location.href='results.html?query='+textSearch;
+
+
+
+    }
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

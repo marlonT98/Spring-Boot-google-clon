@@ -1,0 +1,44 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+
+      
+}
+
+#logo {
+  width: 110px;
+  position: absolute;
+  left: 30px;
+  top: 15px;
+}
+
+#main {
+  margin: auto;
+}
+
+input {
+  margin: 20px 0px;
+  margin-left: 155px;
+  height: 33px;
+  border-radius: 25px;
+  border-color: #ccc;
+  padding-left: 15px;
+  width: 500px;
+}
+.total-results{
+
+    margin-left: 159px;
+    font-size: 13px;
+
+}
+
+.result{
+    max-width: 600px;
+    margin-left: 159px;
+}
+.result h3 {
+
+    color: #0086f8;
+    margin-bottom: 3px;
+}
